@@ -1,0 +1,71 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="kursss4"
+        android:enabled="true"
+        android:icon="@drawable/pdflink"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label4"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label4"
+        android:shortcutDisabledMessage="@string/compose_disabled_message1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.yarashevich.kiryl.ipd"
+            android:targetClass="com.yarashevich.kiryl.ipd.Nav_D" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="kursss3"
+        android:enabled="true"
+        android:icon="@drawable/pdflink"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label3"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label3"
+        android:shortcutDisabledMessage="@string/compose_disabled_message1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.yarashevich.kiryl.ipd"
+            android:targetClass="com.yarashevich.kiryl.ipd.Nav_C" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="kursss2"
+        android:enabled="true"
+        android:icon="@drawable/pdflink"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label2"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label2"
+        android:shortcutDisabledMessage="@string/compose_disabled_message1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.yarashevich.kiryl.ipd"
+            android:targetClass="com.yarashevich.kiryl.ipd.Nav_B" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="kursss1"
+        android:enabled="true"
+        android:icon="@drawable/pdflink"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label1"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label1"
+        android:shortcutDisabledMessage="@string/compose_disabled_message1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.yarashevich.kiryl.ipd"
+            android:targetClass="com.yarashevich.kiryl.ipd.Nav_A" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yarashevich.kiryl.ipd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- SplashActivity -->
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ExampleMaterialAboutFragmentActivity"
+            android:label="@string/title_activity_scrolling"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Nav_A"
+            android:label="@string/k1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Nav_B"
+            android:label="@string/k2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Nav_C"
+            android:label="@string/k3">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Nav_D"
+            android:label="@string/k4">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Nav_E"
+            android:label="@string/k5">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Zaochnoe_A"
+            android:label="@string/zaochnoe_a">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Zaochnoe_B"
+            android:label="@string/zaochnoe_b">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+
+        <activity android:name=".ScrollingActivity2"
+            android:label="@string/title_activity_2017"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

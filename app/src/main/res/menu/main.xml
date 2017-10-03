@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/title_activity_scrolling"
+        android:orderInCategory="100"
+        android:title="@string/title_activity_scrolling"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/activiti_scrolling"
+        android:orderInCategory="100"
+        android:title="@string/title_activity_2017"
+        app:showAsAction="never" />
+</menu>
