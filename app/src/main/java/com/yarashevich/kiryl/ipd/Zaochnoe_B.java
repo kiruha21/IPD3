@@ -24,7 +24,7 @@ public class Zaochnoe_B extends AppCompatActivity {
 // redirection occurs-—
         webView.setWebViewClient(new Callback());
 
-        String pdfURL = "http://www.uoipd.by/files/files/studentu/raspisanie/zaochnoe/1_kurs_Ustanovochnaja_sessija_18.09.-30.09.2017.pdf";
+        String pdfURL = "http://www.uoipd.by/files/files/studentu/raspisanie/zaochnoe/Raspisanie_2k._poln._srok_s_09.10_po_28.10.2017.pdf";
         webView.loadUrl(
                 "http://docs.google.com/gview?embedded=true&url=" + pdfURL);
 
