@@ -8,8 +8,8 @@ android {
         applicationId "com.yarashevich.kiryl.ipd"
         minSdkVersion 14
         targetSdkVersion 26
-        versionCode 15
-        versionName "1.10.15-YK05102017"
+        versionCode 16
+        versionName "1.10.16-YK121017V"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
