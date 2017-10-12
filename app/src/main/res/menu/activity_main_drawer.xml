@@ -60,7 +60,7 @@
                 android:title="Информация" />
             <item
                 android:id="@+id/intern"
-                android:icon="@drawable/ic_public_black_24dp"
+                android:icon="@drawable/ic_google_chrome_grey600_24dp"
                 android:title="uoipd.by" />
         </menu>
     </item>
