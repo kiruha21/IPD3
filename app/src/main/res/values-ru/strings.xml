@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ИПД Расписание</string>
+
+    <string name="k1">Расписание курс 1</string>
+    <string name="k2">Расписание курс 2</string>
+    <string name="k3">Расписание курс 3</string>
+    <string name="k4">Расписание курс 4</string>
+    <string name="k5">Расписание курс 5</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Информация</string>
+    <string name="inf1"><i>"Зимние каникулы с 26.01.2018 по 08.02.2018"</i></string>
+    <string name="inf4"><i>"Возросла плата за обучение :("</i></string>
+    <string name="inf3">"Прием оплаты за пересдачу зачетов,"\n
+    "экзаменов и отработок пропущенных занятий"\n
+    "осуществляется в кассе института (каб.512) 5 этаж."
+
+    "Время работы кассы:"\n
+    "Понедельник- пятница 9.00-16.50"\n
+    "(технический перерыв 13.00-13.30, 15.30-16.00)"\n
+    "Суббота и воскресенье - выходной" \n
+    "Допуск к экзаменам для студентов заочной"\n
+    "формы получения образования осуществляется в каб . 401(4 этаж)"\n
+    "УДАЧНОЙ ВАМ УЧЁБЫ!"</string>
+    <string name="title_activity_scrolling">Информация</string>
+    <string name="lorem_ipsum1">РЕКВИЗИТЫ ДЛЯ ОПЛАТЫ с 04.07.2017:</string>
+    <string name="lorem_ipsum2">Комиссия</string>
+    <string name="text_content1">"Учреждение образования Институт предпринимательской деятельности
+220033, г. Минск, ул. Серафимовича,11 УНП 101357946,ОКПО 14646415,
+р/с BY46GTBN30158900000000452401 в ОАО Франсабанк, код GTBNBY22
+Адрес банка: г.Минск, пр-т Независимости,95а"</string>
+    <string name="text_content2">"Уточняйте в отделении банка где собираетесь произвести оплату"</string>
+    <string name="title_activity_2017">Реквизиты для оплаты</string>
+
+    <string name="title_activity_main">Main</string>
+
+    <string name="mal_launch_about_activity">Launch About Activity</string>
+    <string name="mal_launch_about_fragment">О программе</string>
+    <string name="title_activity_example_material_about_fragment" tools:ignore="UnusedResources">ExampleMaterialAboutFragment
+    </string>
+
+    <string name="compose_shortcut_short_label1">Расписание 1 курс</string>
+    <string name="compose_shortcut_short_label2">Расписание 2 курс</string>
+    <string name="compose_shortcut_short_label3">Расписание 3 курс</string>
+    <string name="compose_shortcut_short_label4">Расписание 4 курс</string>
+    <string name="compose_shortcut_long_label1">Расписание 1 курс</string>
+    <string name="compose_shortcut_long_label2">Расписание 2 курс</string>
+    <string name="compose_shortcut_long_label3">Расписание 3 курс</string>
+    <string name="compose_shortcut_long_label4">Расписание 4 курс</string>
+    <string name="compose_disabled_message1">Disable Message</string>
+    <string name="str_shortcut_two">uoipd.by</string>
+    <string name="str_shortcut_two_desc">Shortcut using code</string>
+
+    <string name="inf2">"РЕКВИЗИТЫ ДЛЯ ОПЛАТЫ с 04.07.2017"\n\n
+
+"КОМИССИЯ:"\n
+"Уточняйте в отделении банка где собираетесь произвести оплату"\n\n
+
+"Учреждение образования Институт предпринимательской деятельности"\n
+"220033, г. Минск, ул. Серафимовича,11"\n
+"УНП 101357946,ОКПО 14646415,"\n
+"р/с BY46GTBN30158900000000452401" \n
+        "в ОАО Франсабанк, код GTBNBY22"\n
+"Адрес банка: г.Минск, пр-т Независимости,95а"\n</string>
+
+    <string name="timing">Сроки оплаты этапов</string>
+    <string name="zaochnoe_a">3 курс сокр. 23.10-11.11.2017</string>
+    <string name="zaochnoe_b">4 курс 30.10-18.11.2017 </string>
+    <string name="zaochnoe_c">3 курс 5 сессия 23.10-11.11.2017</string>
+    <string name="zaochnoe_d">2 курс 09.10-28.10.2017 </string>
+
+
+
+</resources>
