@@ -6,14 +6,14 @@ import android.webkit.WebSettings;
 import android.webkit.WebViewClient;
 
 /**
- * Created by Kiruha_21 on 14.09.2017.
+ * Created by Kiruha_21 on 10.11.2017.
  */
 
-public class Zaochnoe_B extends AppCompatActivity {
+public class Zaochnoe_C extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        android.webkit.WebView webView = new android.webkit.WebView(Zaochnoe_B.this);
+        android.webkit.WebView webView = new android.webkit.WebView(Zaochnoe_C.this);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setBuiltInZoomControls(true);
         webView.getSettings().setDisplayZoomControls(false);
@@ -24,7 +24,7 @@ public class Zaochnoe_B extends AppCompatActivity {
 // redirection occurs-—
         webView.setWebViewClient(new Callback());
 
-        String pdfURL = "http://www.uoipd.by/files/files/studentu/raspisanie/zaochnoe/Raspisanie_4_kursa_s_30.10_po_18.11.2017.pdf";
+        String pdfURL = "http://www.uoipd.by/files/files/studentu/raspisanie/zaochnoe/3_sokr_kurs_2_potok_5_sessija_23.10-11.11.2017.pdf";
         webView.loadUrl(
                 "http://docs.google.com/gview?embedded=true&url=" + pdfURL);
 

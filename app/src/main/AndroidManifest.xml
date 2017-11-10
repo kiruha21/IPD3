@@ -99,6 +99,22 @@
                 android:value="com.yarashevich.kiryl.ipd.MainActivity" />
         </activity>
 
+        <activity
+            android:name=".Zaochnoe_C"
+            android:label="@string/zaochnoe_c">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Zaochnoe_D"
+            android:label="@string/zaochnoe_d">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+
         <activity android:name=".ScrollingActivity2"
             android:label="@string/title_activity_2017"
             android:screenOrientation="portrait"

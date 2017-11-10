@@ -112,6 +112,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.zaochnoe_a) {
             startActivity(new Intent(this, Zaochnoe_A.class));
 
+        } else if (id == R.id.zaochnoe_c) {
+            startActivity(new Intent(this, Zaochnoe_C.class));
+
+        } else if (id == R.id.zaochnoe_d) {
+            startActivity(new Intent(this, Zaochnoe_D.class));
+
         } else if (id == R.id.nav_share) {
             Intent sendIntent = new Intent();
             sendIntent.setAction(Intent.ACTION_SEND);
