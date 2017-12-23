@@ -1,75 +1,75 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">IPD Schedule</string>
+    <string name="app_name">ИПД Расписание</string>
 
-    <string name="k1">Schedule course 1</string>
-    <string name="k2">Schedule course 2</string>
-    <string name="k3">Schedule course 3</string>
-    <string name="k4">Schedule course 4</string>
-    <string name="k5">Schedule course 5</string>
+    <string name="k1">Расписание курс 1</string>
+    <string name="k2">Расписание курс 2</string>
+    <string name="k3">Расписание курс 3</string>
+    <string name="k4">Расписание курс 4</string>
+    <string name="k5">Расписание курс 5</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Information</string>
-    <string name="inf1"><i>"Winter vacation from 1/26/2018 to 2/8/2018"</i></string>
-    <string name="inf4"><i>"The tuition fee has increased :("</i></string>
-    <string name="inf3">"Reception of payment for a repeating an examination of offsets,"\n
-    "examinations and working off of the skipped classes"\n
-    "the 5th floor is carried out in cash desk of institute (incorporated bank.512)."
+    <string name="action_settings">Информация</string>
+    <string name="inf1"><i>"Зимние каникулы с 26.01.2018 по 08.02.2018"</i></string>
+    <string name="inf4"><i>"Студенты веселый народ, ребята скоро Новый год. Вас поздравить хотим, от души вам говорим. Новых, вам приключений, интересных изменений. Сессию вам всем сдать, никогда не унывать."</i></string>
+    <string name="inf3">"Прием оплаты за пересдачу зачетов,"\n
+    "экзаменов и отработок пропущенных занятий"\n
+    "осуществляется в кассе института (каб.512) 5 этаж."
 
-    "Working hours of cash desk:"\n
-    "Monday - Friday 9.00-16.50"\n
-    "(technical break 13.00-13.30, 15.30-16.00)"\n
-    "Saturday and Sunday - day off" \n
-    "The admission to examinations for students of correspondence"\n
-    "forms of education it is carried out in incorporated bank. 401(4 floor)"\n
-    "SUCCESSFUL TO YOU STUDIES!"</string>
-    <string name="title_activity_scrolling">Information</string>
-    <string name="lorem_ipsum1">REQUISITES FOR PAYMENT with 7/4/2017:</string>
-    <string name="lorem_ipsum2">Commission</string>
-    <string name="text_content1">"Establishment of education Institute of business activity
-220033, Minsk, Serafimovich St., 11 UNP 101357946,OKPO 14646415,
-Account No. BY46GTBN30158900000000452401 in JSC Fransabank, the GTBNBY22 code
-Address of bank: Minsk, Nezavisimosti Ave, 95a"</string>
-    <string name="text_content2">"Specify in the branch of the bank where you are going to make payment"</string>
-    <string name="title_activity_2017">Requisites for payment</string>
+    "Время работы кассы:"\n
+    "Понедельник- пятница 9.00-16.50"\n
+    "(технический перерыв 13.00-13.30, 15.30-16.00)"\n
+    "Суббота и воскресенье - выходной" \n
+    "Допуск к экзаменам для студентов заочной"\n
+    "формы получения образования осуществляется в каб . 401(4 этаж)"\n
+    "УДАЧНОЙ ВАМ УЧЁБЫ!"</string>
+    <string name="title_activity_scrolling">Информация</string>
+    <string name="lorem_ipsum1">РЕКВИЗИТЫ ДЛЯ ОПЛАТЫ с 04.07.2017:</string>
+    <string name="lorem_ipsum2">Комиссия</string>
+    <string name="text_content1">"Учреждение образования Институт предпринимательской деятельности
+220033, г. Минск, ул. Серафимовича,11 УНП 101357946,ОКПО 14646415,
+р/с BY46GTBN30158900000000452401 в ОАО Франсабанк, код GTBNBY22
+Адрес банка: г.Минск, пр-т Независимости,95а"</string>
+    <string name="text_content2">"Уточняйте в отделении банка где собираетесь произвести оплату"</string>
+    <string name="title_activity_2017">Реквизиты для оплаты</string>
 
     <string name="title_activity_main">Main</string>
 
     <string name="mal_launch_about_activity">Launch About Activity</string>
-    <string name="mal_launch_about_fragment">About the program</string>
+    <string name="mal_launch_about_fragment">О программе</string>
     <string name="title_activity_example_material_about_fragment" tools:ignore="UnusedResources">ExampleMaterialAboutFragment
     </string>
 
-    <string name="compose_shortcut_short_label1">Schedule course 1</string>
-    <string name="compose_shortcut_short_label2">Schedule course 2</string>
-    <string name="compose_shortcut_short_label3">Schedule course 3</string>
-    <string name="compose_shortcut_short_label4">Schedule course 4</string>
-    <string name="compose_shortcut_long_label1">Schedule course 1</string>
-    <string name="compose_shortcut_long_label2">Schedule course 2</string>
-    <string name="compose_shortcut_long_label3">Schedule course 3</string>
-    <string name="compose_shortcut_long_label4">Schedule course 4</string>
+    <string name="compose_shortcut_short_label1">Расписание 1 курс</string>
+    <string name="compose_shortcut_short_label2">Расписание 2 курс</string>
+    <string name="compose_shortcut_short_label3">Расписание 3 курс</string>
+    <string name="compose_shortcut_short_label4">Расписание 4 курс</string>
+    <string name="compose_shortcut_long_label1">Расписание 1 курс</string>
+    <string name="compose_shortcut_long_label2">Расписание 2 курс</string>
+    <string name="compose_shortcut_long_label3">Расписание 3 курс</string>
+    <string name="compose_shortcut_long_label4">Расписание 4 курс</string>
     <string name="compose_disabled_message1">Disable Message</string>
     <string name="str_shortcut_two">uoipd.by</string>
     <string name="str_shortcut_two_desc">Shortcut using code</string>
 
-    <string name="inf2">"REQUISITES FOR PAYMENT with 7/4/2017"\n\n
+    <string name="inf2">"РЕКВИЗИТЫ ДЛЯ ОПЛАТЫ с 04.07.2017"\n\n
 
-"COMMISSION:"\n
-"Specify in the branch of the bank where you are going to make payment"\n\n
+"КОМИССИЯ:"\n
+"Уточняйте в отделении банка где собираетесь произвести оплату"\n\n
 
-"Establishment of education Institute of business activity"\n
-"220033, Minsk, Serafimovich St., 11"\n
-"UNP 101357946,OKPO 14646415,"\n
+"Учреждение образования Институт предпринимательской деятельности"\n
+"220033, г. Минск, ул. Серафимовича,11"\n
+"УНП 101357946,ОКПО 14646415,"\n
 "р/с BY46GTBN30158900000000452401" \n
-        "in JSC Fransabank, the GTBNBY22 code"\n
-"Address of bank: Minsk, Nezavisimosti Ave, 95a"\n</string>
+        "в ОАО Франсабанк, код GTBNBY22"\n
+"Адрес банка: г.Минск, пр-т Независимости,95а"\n</string>
 
-    <string name="timing">Terms of payment of stages</string>
-    <string name="zaochnoe_a">3 course abbr. 23.10-11.11.2017</string>
-    <string name="zaochnoe_b">4 course 30.10-18.11.2017</string>
-    <string name="zaochnoe_c">3 course 5 session 23.10-11.11.2017</string>
-    <string name="zaochnoe_d">2 course 09.10-28.10.2017</string>
+    <string name="timing">Сроки оплаты этапов</string>
+    <string name="zaochnoe_a">3 курс сокр. 23.10-11.11.2017</string>
+    <string name="zaochnoe_b">4 курс 30.10-18.11.2017 </string>
+    <string name="zaochnoe_c">3 курс 5 сессия 23.10-11.11.2017</string>
+    <string name="zaochnoe_d">2 курс 09.10-28.10.2017 </string>
 
 
 

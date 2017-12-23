@@ -103,9 +103,6 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_4) {
             startActivity(new Intent(this, Nav_D.class));
 
-        } else if (id == R.id.nav_5) {
-            startActivity(new Intent(this, Nav_E.class));
-
         } else if (id == R.id.zaochnoe_b) {
             startActivity(new Intent(this, Zaochnoe_B.class));
 

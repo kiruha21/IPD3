@@ -14,14 +14,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ВАЖНО ЗНАТЬ:"
+            android:text="УВАЖАЕМЫЕ СТУДЕНТЫ!"
             android:textSize="16sp"
             android:textColor="#41b72c"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/inf4" />
+            android:text="@string/inf1" />
 
     </LinearLayout>
 
