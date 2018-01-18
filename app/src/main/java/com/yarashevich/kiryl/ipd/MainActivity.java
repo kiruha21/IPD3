@@ -134,9 +134,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(this, ExampleMaterialAboutFragmentActivity.class));
 
         } else if (id == R.id.intern) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.uoipd.by/ru/" +
-                    ""));
-            startActivity(browserIntent);
+            Uri uri = Uri.parse("http://www.uoipd.by/ru/");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+
+        } else if (id == R.id.parsenewcontent1) {
+            startActivity(new Intent(this, ParseNewContent.class));
 
         }
 

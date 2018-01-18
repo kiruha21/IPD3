@@ -2,6 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
+        <item android:title="Новости института:">
+            <menu>
+                <item
+                    android:id="@+id/parsenewcontent1"
+                    android:icon="@drawable/ic_google_chrome_grey600_24dp"
+                    android:title="@string/parsenewcontent1" />
+            </menu>
+        </item>
         <item android:title="Расписание занятий:">
             <menu>
                 <item

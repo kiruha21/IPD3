@@ -124,6 +124,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.yarashevich.kiryl.ipd.MainActivity" />
         </activity>
+
+        <activity
+            android:name=".ParseNewContent"
+            android:label="@string/parsenewcontent1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>
