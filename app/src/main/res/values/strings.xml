@@ -73,6 +73,25 @@
 
     <string name="parsenewcontent1">Новости института</string>
 
+    /**
+    * Application aktivita main thing
+    * Created by kiruha_21 on 04.02.2018.
+    */
 
+    <string name="a1">Павел ФАДЕЕВ (Индивидуальный Предприниматель)</string>
+    <string name="a2"></string>
+    <string name="a3"> </string>
+    <string name="a4"> </string>
+    <string name="a5"> </string>
+    <string name="a6"> </string>
+    <string name="a7"> </string>
+    <string name="a8"> </string>
+    <string name="a9"> </string>
+    <string name="a10"> </string>
+    <string name="a11"> </string>
+    <string name="a12"> </string>
+    <string name="a13"> </string>
+    <string name="a14"> </string>
+    <string name="a15"> </string>
 
 </resources>

@@ -43,13 +43,13 @@ public class Demo {
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("Play Маркет")
-                .icon(R.mipmap.play)
+                .icon(R.drawable.ic_google_play_grey600_24dp)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd")))
                 .build());
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("Personalcode | Персональный сайт автора")
-                .icon(R.mipmap.chrome)
+                .icon(R.drawable.ic_google_chrome_grey600_24dp)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://personalcode.at.ua/")))
                 .build());
 

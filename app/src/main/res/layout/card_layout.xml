@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/lorem_ipsum1"
-                android:textColor="#ff9800" />
+                android:textColor="#3F51B5" />
 
             <TextView
                 android:id="@+id/job"
