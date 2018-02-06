@@ -42,6 +42,12 @@ public class Demo {
         }
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
+                .text("Список изменений")
+                .icon(R.drawable.ic_history_grey600_24dp)
+                .setOnClickAction(ConvenienceBuilder.createWebViewDialogOnClickAction(c, "Release notes beta", "https://github.com/kiruha21/IPD3/releases", true, false))
+                .build());
+
+        appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("Play Маркет")
                 .icon(R.drawable.ic_google_play_grey600_24dp)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd")))
@@ -64,6 +70,15 @@ public class Demo {
                 .text("Кирилл Ярошевич (@kiruha_21)")
                 .subText("Студент ИПД. Факультет: экономики и бизнеса :)")
                 .icon(R.drawable.ic_account_circle_grey600_24dp)
+                .build());
+
+        authorCardBuilder.addItem(new MaterialAboutActionItem.Builder()
+                .text("Профиль на GitHub")
+                .icon(new IconicsDrawable(c)
+                        .icon(CommunityMaterial.Icon.cmd_github_circle)
+                        .color(ContextCompat.getColor(c, colorIcon))
+                        .sizeDp(18))
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://github.com/kiruha21")))
                 .build());
 
         authorCardBuilder.addItem(new MaterialAboutActionItem.Builder()
