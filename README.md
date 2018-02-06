@@ -1,4 +1,4 @@
-
+<img src="https://github.com/kiruha21/IPD3/blob/master/app/src/main/res/drawable/studying.png?raw=true" width="230" height="230" alt="">
 
 # Расписание занятий (пар) для студентов Института предпринимательской деятельности. 
 
@@ -7,9 +7,7 @@
 
 # Google Play
 
-https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd
-
-# Screenshots
+<img alt="Доступно в Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/ru_badge_web_generic.png" width="250" height="95">
 
 # License
 
