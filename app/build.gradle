@@ -8,8 +8,8 @@ android {
         applicationId "com.yarashevich.kiryl.ipd"
         minSdkVersion 14
         targetSdkVersion 26
-        versionCode 31
-        versionName "1.10.31-YK2018.07.02V-01.46-beta"
+        versionCode 32
+        versionName "1.10.32-YK2018.07.02V-02.00-beta"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
