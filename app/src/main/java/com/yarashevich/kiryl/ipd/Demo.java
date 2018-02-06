@@ -44,7 +44,7 @@ public class Demo {
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("Список изменений")
                 .icon(R.drawable.ic_history_grey600_24dp)
-                .setOnClickAction(ConvenienceBuilder.createWebViewDialogOnClickAction(c, "Release notes beta", "https://github.com/kiruha21/IPD3/releases", true, false))
+                .setOnClickAction(ConvenienceBuilder.createWebViewDialogOnClickAction(c, "Список изменений программы", "https://github.com/kiruha21/IPD3/releases", true, false))
                 .build());
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
@@ -54,7 +54,7 @@ public class Demo {
                 .build());
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Personalcode | Персональный сайт автора")
+                .text("Self-educated person | website")
                 .icon(R.drawable.ic_google_chrome_grey600_24dp)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://personalcode.at.ua/")))
                 .build());
