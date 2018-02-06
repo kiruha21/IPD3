@@ -10,6 +10,7 @@ import com.example.library.items.MaterialAboutTitleItem;
 import com.example.library.model.MaterialAboutCard;
 import com.example.library.model.MaterialAboutList;
 import com.example.library.ConvenienceBuilder;
+import com.example.library.util.OpenSourceLicense;
 import com.mikepenz.community_material_typeface_library.CommunityMaterial;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.iconics.IconicsDrawable;
@@ -161,8 +162,18 @@ public class Demo {
                         .icon(CommunityMaterial.Icon.cmd_attachment)
                         .color(ContextCompat.getColor(c, colorIcon))
                         .sizeDp(18))
-                .text("”Институт предпринимательской деятельности“ (ИПД) основан в 1992 году.")
+                .text("Институт предпринимательской деятельности“ (ИПД) основан в 1992 году.")
                 .subTextHtml("<i>Главная задача института – подготовка специалистов и руководителей высшей квалификации нового типа, свободно ориентирующихся в безбрежных информационных потоках, имеющих фундаментальное профессиональное образование, обладающих высокой культурой интеллектуального и управленческого труда, способных раскрытием своего потенциала содействовать становлению цивилизованных рыночных отношений, развитию демократии и правового государства.</i>")
+                .setIconGravity(MaterialAboutActionItem.GRAVITY_TOP)
+                .build());
+
+        otherCardBuilder.addItem(new MaterialAboutActionItem.Builder()
+                .icon(new IconicsDrawable(c)
+                        .icon(CommunityMaterial.Icon.cmd_cat)
+                        .color(ContextCompat.getColor(c, colorIcon))
+                        .sizeDp(18))
+                .text("История развития приложения:")
+                .subTextHtml("<i>Это приложение для Android основано мной (Кирилл Ярошевич). Так как во время учёбы приходилось смотреть расписание занятий на сайте в PDF, и постоянно искать какую-то информацию, было написано собственно это приложение. По началу приложение писал ради интереса и для себя, позже начал править ошибки и доводить до ума. Немного позже добавлял информацию которой часто пользовался в институте. В конечном итоге начал распостранять через Google Play для студентов ИПД, и править ошибки приложения дальше.</i>")
                 .setIconGravity(MaterialAboutActionItem.GRAVITY_TOP)
                 .build());
 

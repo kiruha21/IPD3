@@ -26,7 +26,7 @@
     "УДАЧНОЙ ВАМ УЧЁБЫ!"</string>
     <string name="title_activity_scrolling">Информация</string>
     <string name="lorem_ipsum1">РЕКВИЗИТЫ ДЛЯ ОПЛАТЫ с 04.07.2017:</string>
-    <string name="lorem_ipsum2">Комиссия</string>
+    <string name="lorem_ipsum2">Комиссия %</string>
     <string name="text_content1">"Учреждение образования Институт предпринимательской деятельности
 220033, г. Минск, ул. Серафимовича,11 УНП 101357946,ОКПО 14646415,
 р/с BY46GTBN30158900000000452401 в ОАО Франсабанк, код GTBNBY22
