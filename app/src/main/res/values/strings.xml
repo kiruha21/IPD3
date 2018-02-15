@@ -60,8 +60,9 @@
 "Адрес банка: г.Минск, пр-т Независимости,95а"\n</string>
 
     <string name="timing">Сроки оплаты этапов</string>
+    <string name="phonebookipd">Телефонный справочник</string>
     <string name="zaochnoe_a">2 курс полн.ср 05.02-24.02.18</string>
-    <string name="zaochnoe_b">4 курс 30.10-18.11.2017</string>
+    <string name="zaochnoe_b">3 курс сокр.с 19.02-10.03.18</string>
     <string name="zaochnoe_c">3 курс 5 сессия 23.10-11.11.2017</string>
     <string name="zaochnoe_d">2 курс 09.10-28.10.2017</string>
 

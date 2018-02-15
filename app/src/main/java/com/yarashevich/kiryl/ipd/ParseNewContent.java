@@ -98,6 +98,7 @@ public class ParseNewContent extends AppCompatActivity {
             return str;
         }
     }
+
     class ParseTitle extends AsyncTask<Void,Void,HashMap<String,String>> {
 
         @Override

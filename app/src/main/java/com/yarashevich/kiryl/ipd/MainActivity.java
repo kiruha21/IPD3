@@ -103,11 +103,11 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_4) {
             startActivity(new Intent(this, Nav_D.class));
 
-        } else if (id == R.id.zaochnoe_b) {
-            startActivity(new Intent(this, Zaochnoe_B.class));
-
         } else if (id == R.id.zaochnoe_a) {
             startActivity(new Intent(this, Zaochnoe_A.class));
+
+        } else if (id == R.id.zaochnoe_b) {
+            startActivity(new Intent(this, Zaochnoe_B.class));
 
         } else if (id == R.id.zaochnoe_c) {
             startActivity(new Intent(this, Zaochnoe_C.class));
@@ -126,9 +126,10 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(this, ScrollingActivity2.class));
 
         } else if (id == R.id.timing) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.uoipd.by/ru/students/oplata/" +
-                    ""));
-            startActivity(browserIntent);
+                startActivity(new Intent(this, SrokOplata.class));
+
+        } else if (id == R.id.phonebookipd1) {
+            startActivity(new Intent(this, PhoneBookIpd.class));
 
         } else if (id == R.id.activiti_scrol) {
             startActivity(new Intent(this, ExampleMaterialAboutFragmentActivity.class));
