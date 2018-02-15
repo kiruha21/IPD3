@@ -63,6 +63,10 @@
                 android:icon="@drawable/ic_contacts_grey600_24dp"
                 android:title="@string/phonebookipd" />
             <item
+                android:id="@+id/arenda"
+                android:icon="@drawable/ic_coin_grey600_24dp"
+                android:title="@string/arendadom" />
+            <item
                 android:id="@+id/activiti_scrol"
                 android:icon="@drawable/ic_info_black_24dp"
                 android:title="Информация" />

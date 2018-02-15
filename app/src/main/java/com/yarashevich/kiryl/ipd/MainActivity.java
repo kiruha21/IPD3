@@ -131,6 +131,11 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.phonebookipd1) {
             startActivity(new Intent(this, PhoneBookIpd.class));
 
+        } else if (id == R.id.arenda) {
+            Uri uri = Uri.parse("https://play.google.com/store/apps/details?id=by.nikolaenko.ineedaflat");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+
         } else if (id == R.id.activiti_scrol) {
             startActivity(new Intent(this, ExampleMaterialAboutFragmentActivity.class));
 
