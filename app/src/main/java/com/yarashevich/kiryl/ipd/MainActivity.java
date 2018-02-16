@@ -85,6 +85,8 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    // Меню(навигация):
+
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -121,6 +123,11 @@ public class MainActivity extends AppCompatActivity
             sendIntent.putExtra(Intent.EXTRA_TEXT, "Расписание ИПД можно смотреть на смартфоне | Скачать: https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd");
             sendIntent.setType("text/plain");
             startActivity(sendIntent);
+
+        } else if (id == R.id.rating) {
+            Uri uri = Uri.parse("https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
 
         } else if (id == R.id.activiti_scrolling) {
             startActivity(new Intent(this, ScrollingActivity2.class));

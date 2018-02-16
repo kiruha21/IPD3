@@ -1,11 +1,14 @@
 package com.yarashevich.kiryl.ipd;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.support.v4.content.ContextCompat;
+import android.widget.Toast;
 
 import com.example.library.items.MaterialAboutActionItem;
+import com.example.library.items.MaterialAboutItemOnClickAction;
 import com.example.library.items.MaterialAboutTitleItem;
 import com.example.library.model.MaterialAboutCard;
 import com.example.library.model.MaterialAboutList;
@@ -55,9 +58,28 @@ public class Demo {
                 .build());
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
+                .text("Оцените нас")
+                .icon(R.drawable.ic_thumb_up_outline_grey600_24dp)
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd")))
+                .build());
+
+        appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("Self-educated person | website")
+                .subText("Официальный сайт разработчика")
                 .icon(R.drawable.ic_google_chrome_grey600_24dp)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://personalcode.at.ua/")))
+                .build());
+
+        appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
+                .text("..........beta..........")
+                .icon(R.drawable.ic_google_chrome_grey600_24dp)
+                .setOnClickAction(new MaterialAboutItemOnClickAction() {
+                    @Override
+                    public void onClick() {
+                        Intent intent = new Intent(c, ParseNewContent.class);
+                        c.startActivity(intent);
+                    }
+                })
                 .build());
 
 
@@ -112,9 +134,17 @@ public class Demo {
 
        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                .text("Сайт института")
+               .subText("Официальный сайт института")
                .icon(R.drawable.ic_google_chrome_grey600_24dp)
                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://www.uoipd.by/ru/")))
                .build());
+
+        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
+                .text("Подслушано ИПД")
+                .subText("Подслушано теперь и в ИПД. Поделись своим секретом, анонимность гарантирована.")
+                .icon(R.drawable.ic_vk_grey600_24dp)
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://vk.com/public68692518")))
+                .build());
 
         ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("ВКонтакте")
@@ -134,25 +164,33 @@ public class Demo {
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://twitter.com/uoipd")))
                 .build());
 
-        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Email")
-                .subText("uoipd@tut.by")
-                .icon(R.drawable.ic_email_outline_grey600_24dp)
-                .build());
+        ipdCardBuilder.addItem(ConvenienceBuilder.createEmailItem(c,
+                new IconicsDrawable(c)
+                        .icon(CommunityMaterial.Icon.cmd_email)
+                        .color(ContextCompat.getColor(c, colorIcon))
+                        .sizeDp(18),
+                "Email",
+                true,
+                "uoipd@tut.by",
+                "Отправлено из приложения: ИПД Расписание (https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd)"));
 
-        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Телефон")
-                .subText("+375(017)298-43-59")
-                .icon(R.drawable.ic_deskphone_grey600_24dp)
-                .build());
+        ipdCardBuilder.addItem(ConvenienceBuilder.createPhoneItem(c,
+                new IconicsDrawable(c)
+                        .icon(CommunityMaterial.Icon.cmd_phone)
+                        .color(ContextCompat.getColor(c, colorIcon))
+                        .sizeDp(18),
+                "Телефон",
+                true,
+                "+375(017)298-43-59"));
 
-        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Местоположение")
-                .subText("г.Минск,ул.Серафимовича,11")
-                .icon(R.drawable.ic_crosshairs_gps_grey600_24dp)
-                .build());
-
-
+        ipdCardBuilder.addItem(ConvenienceBuilder.createMapItem(c,
+                new IconicsDrawable(c)
+                        .icon(CommunityMaterial.Icon.cmd_map)
+                        .color(ContextCompat.getColor(c, colorIcon))
+                        .sizeDp(18),
+                "Местоположение",
+                "г.Минск,ул.Серафимовича,11",
+                "г.Минск,ул.Серафимовича,11"));
 
         MaterialAboutCard.Builder otherCardBuilder = new MaterialAboutCard.Builder();
         otherCardBuilder.title("Важно знать:");
@@ -177,6 +215,15 @@ public class Demo {
                 .setIconGravity(MaterialAboutActionItem.GRAVITY_TOP)
                 .build());
 
-        return new MaterialAboutList(appCardBuilder.build(), authorCardBuilder.build(), ipdCardBuilder.build(), otherCardBuilder.build());
+        MaterialAboutCard.Builder advancedCardBuilder = new MaterialAboutCard.Builder();
+        advancedCardBuilder.title("Beta");
+
+        advancedCardBuilder.addItem(new MaterialAboutTitleItem.Builder()
+                .text("..........beta..........")
+                .icon(R.mipmap.ic_launcher)
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://vk.com/kirill_yaroshevich")))
+                .build());
+
+        return new MaterialAboutList(appCardBuilder.build(), authorCardBuilder.build(), ipdCardBuilder.build(), otherCardBuilder.build(), advancedCardBuilder.build());
     }
 }
