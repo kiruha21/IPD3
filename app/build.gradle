@@ -9,8 +9,8 @@ android {
         applicationId "com.yarashevich.kiryl.ipd"
         minSdkVersion 14
         targetSdkVersion 26
-        versionCode 35
-        versionName "1.13.40-YK2018.16.02V-20.50-beta"
+        versionCode 39
+        versionName "1.13.45-YK2018.25.02V-10.14-beta"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -42,6 +42,7 @@ dependencies {
 
     implementation project(path: ':library')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.github.daniel-stoneuk:material-about-library:2.2.4'
 }
 repositories {
     mavenCentral()

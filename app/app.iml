@@ -148,6 +148,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:cardview-v7-27.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.mikepenz:google-material-typeface-2.2.0.3.original" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-27.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.daniel-stoneuk:material-about-library-2.2.4" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-compat-27.0.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: javax.annotation:javax.annotation-api:1.2@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.android.support.test.espresso:espresso-core-2.2.2" level="project" />
