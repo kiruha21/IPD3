@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.daniel-stoneuk:material-about-library-2.2.4">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-about-library-2.2.4.aar/8e4bd2a143b0fbd58f07a51d2b142aca/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-about-library-2.2.4.aar/8e4bd2a143b0fbd58f07a51d2b142aca/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-about-library-2.2.4.aar/3c46617afef8c98872182232944caacd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-about-library-2.2.4.aar/3c46617afef8c98872182232944caacd/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
