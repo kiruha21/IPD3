@@ -55,7 +55,7 @@ public class Demo {
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("Оцените нас")
-                .icon(R.drawable.ic_google_play_grey600_24dp)
+                .icon(R.drawable.ic_thumb_up_outline_grey600_24dp)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd")))
                 .build());
 
@@ -116,11 +116,19 @@ public class Demo {
         ipdCardBuilder.title("Информация о институте:");
 //        authorCardBuilder.titleColor(ContextCompat.getColor(c, R.color.colorAccent));
 
-       ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-               .text("Сайт института")
-               .icon(R.drawable.ic_google_chrome_grey600_24dp)
-               .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://www.uoipd.by/ru/")))
-               .build());
+        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
+                .text("Сайт института")
+                .subText("Официальный сайт института")
+                .icon(R.drawable.ic_google_chrome_grey600_24dp)
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://www.uoipd.by/ru/")))
+                .build());
+
+        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
+                .text("Подслушано ИПД")
+                .subText("Подслушано теперь и в ИПД. Поделись своим секретом, анонимность гарантирована.")
+                .icon(R.drawable.ic_vk_grey600_24dp)
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://vk.com/public68692518")))
+                .build());
 
         ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("ВКонтакте")
@@ -140,25 +148,33 @@ public class Demo {
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://twitter.com/uoipd")))
                 .build());
 
-        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Email")
-                .subText("uoipd@tut.by")
-                .icon(R.drawable.ic_email_outline_grey600_24dp)
-                .build());
+        ipdCardBuilder.addItem(ConvenienceBuilder.createEmailItem(c,
+                new IconicsDrawable(c)
+                        .icon(CommunityMaterial.Icon.cmd_email)
+                        .color(ContextCompat.getColor(c, colorIcon))
+                        .sizeDp(18),
+                "Email",
+                true,
+                "uoipd@tut.by",
+                "Отправлено из приложения: ИПД Расписание (https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd)"));
 
-        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Телефон")
-                .subText("+375(017)298-43-59")
-                .icon(R.drawable.ic_deskphone_grey600_24dp)
-                .build());
+        ipdCardBuilder.addItem(ConvenienceBuilder.createPhoneItem(c,
+                new IconicsDrawable(c)
+                        .icon(CommunityMaterial.Icon.cmd_phone)
+                        .color(ContextCompat.getColor(c, colorIcon))
+                        .sizeDp(18),
+                "Телефон",
+                true,
+                "+375(017)298-43-59"));
 
-        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Местоположение")
-                .subText("г.Минск,ул.Серафимовича,11")
-                .icon(R.drawable.ic_crosshairs_gps_grey600_24dp)
-                .build());
-
-
+        ipdCardBuilder.addItem(ConvenienceBuilder.createMapItem(c,
+                new IconicsDrawable(c)
+                        .icon(CommunityMaterial.Icon.cmd_map)
+                        .color(ContextCompat.getColor(c, colorIcon))
+                        .sizeDp(18),
+                "Местоположение",
+                "г.Минск,ул.Серафимовича,11",
+                "г.Минск,ул.Серафимовича,11"));
 
         MaterialAboutCard.Builder otherCardBuilder = new MaterialAboutCard.Builder();
         otherCardBuilder.title("Важно знать:");
