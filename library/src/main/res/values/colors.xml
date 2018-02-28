@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#616161</color>
-    <color name="colorPrimaryDark">#373737</color>
-    <color name="colorAccent">#3f51b5</color>
 
-    <color name="colorLightBar">#ffffff</color>
-    <color name="colorLightStatus">#9E9E9E</color>
+    <color name="mal_text_primary">#de000000</color>
+    <color name="mal_text_secondary">#8a000000</color>
 
-    <color name="colorIconLight">#616161</color>
-    <color name="colorIconDark">#E0E0E0</color>
-
-    <color name="ic_background">#FFBCBCBC</color>
+    <color name="mal_text_primary_dark">#FFFFFF</color>
+    <color name="mal_text_secondary_dark">#b4ffffff</color>
 
 </resources>

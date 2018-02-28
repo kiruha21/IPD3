@@ -3,7 +3,6 @@ package com.yarashevich.kiryl.ipd;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebSettings;
-import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 /**
@@ -14,7 +13,7 @@ public class Nav_B extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        WebView webView = new WebView(Nav_B.this);
+        android.webkit.WebView webView = new android.webkit.WebView(Nav_B.this);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setBuiltInZoomControls(true);
         webView.getSettings().setDisplayZoomControls(false);

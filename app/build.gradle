@@ -8,7 +8,7 @@ android {
     defaultConfig {
         applicationId "com.yarashevich.kiryl.ipd"
         minSdkVersion 14
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 40
         versionName "1.15.55-YK2018.28.02V"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -38,11 +38,8 @@ dependencies {
     implementation 'com.mikepenz:google-material-typeface:2.2.0.3.original@aar'
     implementation 'com.mikepenz:community-material-typeface:1.7.22.1@aar'
 
-    implementation 'com.android.support:multidex:1.0.1'
-
     implementation project(path: ':library')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.github.daniel-stoneuk:material-about-library:2.2.4'
 }
 repositories {
     mavenCentral()
