@@ -42,12 +42,6 @@ public class Demo {
         }
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Список изменений")
-                .icon(R.drawable.ic_history_grey600_24dp)
-                .setOnClickAction(ConvenienceBuilder.createWebViewDialogOnClickAction(c, "Список изменений программы", "https://github.com/kiruha21/IPD3/releases", true, false))
-                .build());
-
-        appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("Play Маркет")
                 .icon(R.drawable.ic_google_play_grey600_24dp)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://play.google.com/store/apps/details?id=com.yarashevich.kiryl.ipd")))
@@ -60,7 +54,7 @@ public class Demo {
                 .build());
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Self-educated person | website")
+                .text("Self-educated person | #LikeMusic")
                 .subText("Официальный сайт разработчика")
                 .icon(R.drawable.ic_google_chrome_grey600_24dp)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://personalcode.at.ua/")))
@@ -85,7 +79,7 @@ public class Demo {
                         .icon(CommunityMaterial.Icon.cmd_github_circle)
                         .color(ContextCompat.getColor(c, colorIcon))
                         .sizeDp(18))
-                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://github.com/kiruha21")))
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://github.com/Hadenix")))
                 .build());
 
         authorCardBuilder.addItem(new MaterialAboutActionItem.Builder()
@@ -103,13 +97,13 @@ public class Demo {
         authorCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("Telegram")
                 .icon(R.drawable.ic_telegram_grey600_24dp)
-                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://telegram.me/kirill_21")))
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://t.me/Hadenix")))
                 .build());
 
         authorCardBuilder.addItem(new MaterialAboutActionItem.Builder()
                 .text("Facebook")
                 .icon(R.drawable.ic_facebook_box_grey600_24dp)
-                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://www.facebook.com/jaroschevich")))
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://www.facebook.com/Hadenix")))
                 .build());
 
         MaterialAboutCard.Builder ipdCardBuilder = new MaterialAboutCard.Builder();
@@ -121,13 +115,6 @@ public class Demo {
                 .subText("Официальный сайт института")
                 .icon(R.drawable.ic_google_chrome_grey600_24dp)
                 .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://www.uoipd.by/ru/")))
-                .build());
-
-        ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Подслушано ИПД")
-                .subText("Подслушано теперь и в ИПД. Поделись своим секретом, анонимность гарантирована.")
-                .icon(R.drawable.ic_vk_grey600_24dp)
-                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://vk.com/public68692518")))
                 .build());
 
         ipdCardBuilder.addItem(new MaterialAboutActionItem.Builder()

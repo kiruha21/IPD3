@@ -43,7 +43,7 @@
             android:label="@string/title_activity_scrolling"
             android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.MaterialAboutActivity.Dark.DarkActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.yarashevich.kiryl.ipd.MainActivity" />
