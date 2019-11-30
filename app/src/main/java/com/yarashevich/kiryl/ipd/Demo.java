@@ -54,10 +54,10 @@ public class Demo {
                 .build());
 
         appCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Self-educated person | #LikeMusic")
+                .text("My works for Android | #Hadenix")
                 .subText("Официальный сайт разработчика")
                 .icon(R.drawable.ic_google_chrome_grey600_24dp)
-                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("http://personalcode.at.ua/")))
+                .setOnClickAction(ConvenienceBuilder.createWebsiteOnClickAction(c, Uri.parse("https://hadenix.github.io")))
                 .build());
 
 
@@ -68,7 +68,7 @@ public class Demo {
 //        authorCardBuilder.titleColor(ContextCompat.getColor(c, R.color.colorAccent));
 
         authorCardBuilder.addItem(new MaterialAboutActionItem.Builder()
-                .text("Кирилл Ярошевич (@kiruha_21)")
+                .text("Кирилл Ярошевич (@Hadenix)")
                 .subText("Студент ИПД. Факультет: экономики и бизнеса :)")
                 .icon(R.drawable.ic_account_circle_grey600_24dp)
                 .build());
