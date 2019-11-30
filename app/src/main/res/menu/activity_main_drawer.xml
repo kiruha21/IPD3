@@ -55,10 +55,6 @@
             android:icon="@drawable/ic_share_black_24dp"
             android:title="Рассказать друзьям" />
             <item
-                android:id="@+id/activiti_scrolling"
-                android:icon="@drawable/ic_credit_card_plus_grey600_24dp"
-                android:title="Реквизиты для оплаты" />
-            <item
                 android:id="@+id/timing"
                 android:icon="@drawable/ic_timetable_grey600_24dp"
                 android:title="@string/timing" />

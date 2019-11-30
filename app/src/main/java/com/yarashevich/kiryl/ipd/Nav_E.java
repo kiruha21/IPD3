@@ -6,7 +6,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebViewClient;
 
 /**
- * Created by kiril on 04.12.2016.
+ * Update by Hadenix on 30.11.2019.
  */
 
 public class Nav_E extends AppCompatActivity {

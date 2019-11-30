@@ -1,5 +1,9 @@
 package com.yarashevich.kiryl.ipd;
 
+/**
+ * Update by Hadenix on 30.11.2019.
+ */
+
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -64,27 +68,6 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.title_activity_scrolling) {
-            startActivity(new Intent(this, ExampleMaterialAboutFragmentActivity.class));
-        }
-
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.activiti_scrolling) {
-            startActivity(new Intent(this, ScrollingActivity2.class));
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -128,11 +111,10 @@ public class MainActivity extends AppCompatActivity
             sendIntent.setType("text/plain");
             startActivity(sendIntent);
 
-        } else if (id == R.id.activiti_scrolling) {
-            startActivity(new Intent(this, ScrollingActivity2.class));
-
         } else if (id == R.id.timing) {
-                startActivity(new Intent(this, SrokOplata.class));
+            Uri uri = Uri.parse("http://www.uoipd.by/ru/students/oplata.html");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
 
         } else if (id == R.id.phonebookipd1) {
             Uri uri = Uri.parse("http://www.uoipd.by/ru/kontakty/phonebook.html");
