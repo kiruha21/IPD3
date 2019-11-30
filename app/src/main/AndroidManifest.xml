@@ -147,13 +147,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.yarashevich.kiryl.ipd.MainActivity" />
         </activity>
-        <activity
-            android:name=".PhoneBookIpd"
-            android:label="@string/phonebookipd">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
-        </activity>
 
     </application>
 

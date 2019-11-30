@@ -135,7 +135,9 @@ public class MainActivity extends AppCompatActivity
                 startActivity(new Intent(this, SrokOplata.class));
 
         } else if (id == R.id.phonebookipd1) {
-            startActivity(new Intent(this, PhoneBookIpd.class));
+            Uri uri = Uri.parse("http://www.uoipd.by/ru/kontakty/phonebook.html");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
 
         } else if (id == R.id.activiti_scrol) {
             startActivity(new Intent(this, ExampleMaterialAboutFragmentActivity.class));
