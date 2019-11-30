@@ -103,6 +103,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_4) {
             startActivity(new Intent(this, Nav_D.class));
 
+        } else if (id == R.id.nav_5) {
+            startActivity(new Intent(this, Nav_E.class));
+
         } else if (id == R.id.zaochnoe_a) {
             startActivity(new Intent(this, Zaochnoe_A.class));
 
@@ -114,6 +117,9 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.zaochnoe_d) {
             startActivity(new Intent(this, Zaochnoe_D.class));
+
+        } else if (id == R.id.raspz) {
+            startActivity(new Intent(this, RaspZ.class));
 
         } else if (id == R.id.nav_share) {
             Intent sendIntent = new Intent();

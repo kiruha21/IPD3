@@ -28,6 +28,10 @@
                     android:id="@+id/nav_4"
                     android:icon="@drawable/ic_picture_as_pdf_black_24dp"
                     android:title="4 курс" />
+                <item
+                    android:id="@+id/nav_5"
+                    android:icon="@drawable/ic_picture_as_pdf_black_24dp"
+                    android:title="5 курс" />
             </menu>
         </item>
     </group>
@@ -58,6 +62,10 @@
                 android:id="@+id/timing"
                 android:icon="@drawable/ic_timetable_grey600_24dp"
                 android:title="@string/timing" />
+            <item
+                android:id="@+id/raspz"
+                android:icon="@drawable/ic_picture_as_pdf_black_24dp"
+                android:title="@string/a2" />
             <item
                 android:id="@+id/phonebookipd1"
                 android:icon="@drawable/ic_contacts_grey600_24dp"

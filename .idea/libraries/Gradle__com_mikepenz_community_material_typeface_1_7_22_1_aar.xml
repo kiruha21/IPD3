@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.mikepenz:community-material-typeface:1.7.22.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac5758f323f57daac99eb623e0223ff9/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac5758f323f57daac99eb623e0223ff9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fadae6c982173ca9710ac3e4105d7423/community-material-typeface-1.7.22.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fadae6c982173ca9710ac3e4105d7423/community-material-typeface-1.7.22.1/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/community-material-typeface/1.7.22.1/3c014d39b952846969d55b8f74104ff1491167f4/community-material-typeface-1.7.22.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/community-material-typeface/1.7.22.1/47b6438ec625a0c5c99714f66d40e65fc545c263/community-material-typeface-1.7.22.1-sources.jar!/" />
     </SOURCES>

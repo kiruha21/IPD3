@@ -84,6 +84,13 @@
                 android:value="com.yarashevich.kiryl.ipd.MainActivity" />
         </activity>
         <activity
+            android:name=".RaspZ"
+            android:label="@string/a2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yarashevich.kiryl.ipd.MainActivity" />
+        </activity>
+        <activity
             android:name=".Zaochnoe_A"
             android:label="@string/zaochnoe_a">
             <meta-data
