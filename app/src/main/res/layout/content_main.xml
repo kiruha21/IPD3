@@ -16,8 +16,6 @@ tools:showIn="@layout/activity_scrolling">
 
     <include layout="@layout/card_layout_main" />
 
-    <include layout="@layout/card_layout_main3" />
-
     <include layout="@layout/card_layout_main2" />
 
 </LinearLayout>
