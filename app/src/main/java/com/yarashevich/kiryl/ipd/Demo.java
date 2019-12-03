@@ -24,7 +24,7 @@ public class Demo {
         appCardBuilder.addItem(new MaterialAboutTitleItem.Builder()
                 .text("О программе:")
                 .desc("© 2016 Kirill Yaroshevich")
-                .icon(R.mipmap.kkkk)
+                .icon(R.mipmap.settings)
                 .build());
 
         try {

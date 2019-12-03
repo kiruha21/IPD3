@@ -396,5 +396,9 @@ public class MaterialAboutActionItem extends MaterialAboutItem {
         public MaterialAboutActionItem build() {
             return new MaterialAboutActionItem(this);
         }
+
+        public Builder sizeDp(int i) {
+            return null;
+        }
     }
 }
