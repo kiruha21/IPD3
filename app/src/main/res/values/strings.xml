@@ -61,7 +61,7 @@
 
     <string name="timing">Сроки, реквизиты оплаты</string>
     <string name="phonebookipd">Телефонный справочник</string>
-    <string name="zaochnoe_a">4 курс c 12.03-31.03.18</string>
+    <string name="zaochnoe_a">2 курс 02.12-21.12.2019</string>
     <string name="zaochnoe_b">3 курс сокр.с 19.02-10.03.18</string>
     <string name="zaochnoe_c">3 курс 5 сессия 23.10-11.11.2017</string>
     <string name="zaochnoe_d">2 курс 09.10-28.10.2017</string>
@@ -75,8 +75,8 @@
 
     <string name="a1">Михаил ГРАБОВСКИЙ (Игрок национальной сборной Беларуси по хоккею, Нью-Йорк Айлендерс)</string>
     <string name="a2">Расписание звонков</string>
-    <string name="a3"> </string>
-    <string name="a4"> </string>
+    <string name="a3">Минск, ул.Серафимовича,11</string>
+    <string name="a4">Открыто пн-сб 7:00–21:00</string>
     <string name="a5"> </string>
     <string name="a6"> </string>
     <string name="a7"> </string>
