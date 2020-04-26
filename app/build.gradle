@@ -9,8 +9,8 @@ android {
         applicationId "com.yarashevich.kiryl.ipd"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 50
-        versionName "1.19.20-YK2019.12.06"
+        versionCode 51
+        versionName "1.19.21-YK2020.26.04"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
